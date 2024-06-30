@@ -13,6 +13,8 @@ enum Constants {
     
     static let accessKey = "SY4PRl8nSlOVvHCHcJ_JEkJvm9OYnlA_zjMlJfkXM1k"
     static let secretKey = "-8zQN7XZfmlU5k4395ig6cZlS41z23a_i2wUbVMY1kE"
+//    static let accessKey = "KGkFAXcCQuRlZt2fd4GKlHDaTya9hZmXUcyPReJFHfA"
+//    static let secretKey = "r-pv21oXQzWDw2op0rf0iM9361WeA58L2M2iUjf0qFo"
 //    static let accessKey = "E0IHLO11qpfBLhXeqW7aPkZsXgyrGN1to1cKwP_W3hI"
 //    static let secretKey = "90S7iNwQC9NzuKIuoBqtXcmEhm_qK_KTnBuga9Mcfrg"
     static let redirectURI = "urn:ietf:wg:oauth:2.0:oob"
