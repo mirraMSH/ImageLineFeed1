@@ -50,7 +50,7 @@ final class ImagesListService: ImagesListServiceProtocol {
             
             switch result {
             case .success(let photoResults):
-                self.photos.append(contentsOf: photoResults.map { Photo(result: $0) }) //from:
+                self.photos.append(contentsOf: photoResults.map { Photo(result: $0) })
                 completion(.success(self.photos))
                 NotificationCenter.default.post(name: ImagesListService.didChangeNotification,
                                                 object: self,

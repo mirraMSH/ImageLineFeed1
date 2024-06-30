@@ -8,7 +8,7 @@
 import Foundation
 
 protocol ImagesListPresenterProtocol {
-var view: ImagesListViewControllerProtocol? { get set }
+    var view: ImagesListViewControllerProtocol? { get set }
     var photos: [Photo] { get set }
     var imagesListService: ImagesListServiceProtocol { get }
     func viewDidLoad()

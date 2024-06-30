@@ -76,7 +76,6 @@ class ProfileViewController: UIViewController, ProfileViewControllerProtocol {
         super.viewDidLoad()
         presenter.view = self
         presenter.updateProfileData()
-        //        updateAvatar()
         setupViews()
         setupAllConstraints()
     }

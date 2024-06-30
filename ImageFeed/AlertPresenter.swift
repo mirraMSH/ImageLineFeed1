@@ -44,20 +44,3 @@ final class AlertPresenter {
         vc.present(alert, animated: true)
     }
 }
-
-
-/*func showAlert() {
-       let alert = UIAlertController(
-           title: "Что-то пошло не так",
-           message: "Не удалось поставить лайк",
-           preferredStyle: .alert
-       )
-       
-       let action = UIAlertAction(
-           title: "OK",
-           style: .default)
-       
-       alert.addAction(action)
-       present(alert, animated: true)
-       
-   }*/

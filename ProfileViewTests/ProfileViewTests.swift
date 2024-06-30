@@ -9,15 +9,13 @@ import XCTest
 
 final class ProfileViewTests: XCTestCase {
     func testViewControllerCallsPresenterUpdateProfileData() throws {
-        //given
+        
         let viewController = ProfileViewController()
         let presenter = ProfilePresenterSpy()
         viewController.presenter = presenter
         
-        //when
         _ = viewController.view
         
-        //then
         XCTAssertTrue(presenter.updateProfileDataCalled)
     }
     
@@ -27,10 +25,8 @@ final class ProfileViewTests: XCTestCase {
         viewController.presenter = presenter
         presenter.view = viewController
         
-        //when
         presenter.updateProfileData()
         
-        //then
         XCTAssertTrue(viewController.setupAvatarCalled)
         XCTAssertEqual(viewController.presenter.profileImageService.avatarURL, "https://test.com")
     }
